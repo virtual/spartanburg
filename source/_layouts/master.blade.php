@@ -38,10 +38,16 @@
   <link rel="apple-touch-icon-precomposed" href="{{ $page->baseUrl }}/resources/images/ico/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="{{ $page->baseUrl }}/resources/images/ico/favicon.ico">
 
+
+  @if (trim($__env->yieldContent('template-newsdetail')))
+  <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/prettyPhoto.css" /> 
+  @endif
+
   <noscript>
 
   </noscript>
   @yield('headcode')
+ 
 
   <!-- Facebook Pixel Code --> 
   <!-- End Facebook Pixel Code -->
@@ -241,6 +247,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="{{ $page->baseUrl }}/assets/js/main.js"></script>  
  
+
+  @if (trim($__env->yieldContent('template-newsdetail')))
+	<script src="{{ $page->baseUrl }}/assets/js/jquery.prettyPhoto.js"></script>
+	<script src="{{ $page->baseUrl }}/assets/js/prettyPhoto-app.js"></script>
+  @endif
+
   <!-- SiteImprove Analytics -->
   <!-- End SiteImprove Analytics -->
     

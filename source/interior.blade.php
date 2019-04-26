@@ -24,3 +24,7 @@ Interior
 @section('alert')
 true
 @endsection
+
+@section('template-newsdetail')
+true
+@endsection
