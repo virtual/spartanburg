@@ -1,0 +1,316 @@
+/*
+	Master Reset CSS
+	- reset
+	- clearfix
+	- typogrid
+	- imports Ektron Overrides to grid, editor, widgets.
+	6/25/12
+*/
+
+ @import url('ektronOverrides.css');
+
+/* CSS RESET: Taken from Eric Meyer, Paul Irish */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
+	margin: 0; padding: 0;
+	font-size: 100%;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+nav ul {
+	margin-bottom: 0px;
+	padding-left: 0px;
+	list-style: none
+}
+
+article, aside, figure, footer, header, hgroup, nav, section, img { display: block }
+
+blockquote, q { quotes: none }
+
+a {
+	margin: 0; padding: 0;
+	font-size: 100%;
+	text-decoration: none;
+	background: transparent;
+	vertical-align: baseline;
+}
+
+a:hover, a:active { outline: none }
+
+ins {
+	background-color: #ff9; color: #000;
+	text-decoration: none
+}
+
+mark {
+	background-color: #ff9; color: #000;
+	font-weight: bold;
+	font-style: italic
+}
+
+del { text-decoration: line-through }
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted #000;
+	cursor: help
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	margin: 1em 0; padding: 0;
+	border-top: 1px solid #ccc;
+	border: 0
+}
+
+input, select { vertical-align: middle }
+
+table {
+	font-size: inherit;
+	font: 100%
+}
+
+select, input, textarea { font: 99% sans-serif }
+
+pre, code, kbd, samp { font-family: monospace, sans-serif }
+
+/* clearfix */
+
+.clearfix:after {
+	display: block;
+	height: 0;
+	clear: both;
+	content: ".";
+	visibility: hidden;
+}
+
+* html .clearfix { height: 1% }
+
+*+html .clearfix { min-height: 1% }
+
+/* default styles */
+
+html { font-size: 100.01% }
+
+body {
+	overflow-y: scroll;
+	*overflow-y: auto;
+}
+
+h1, h2, h3, h4, h5, h6 { text-rendering: optimizeLegibility }
+
+.ie7 img { -ms-interpolation-mode: bicubic }
+
+/* forms */
+
+input[type="radio"] { vertical-align: text-bottom }
+
+input[type="checkbox"] {
+	*vertical-align: middle;
+	vertical-align: middle;
+}
+
+.ie6 input { vertical-align: text-bottom }
+
+label, input[type=button], input[type=submit], button { cursor: pointer }
+
+button {
+	width: auto;
+	overflow: visible
+}
+
+/* typogrid layout (992 wide, 16 column grid, 10 pix gutter */
+
+.wrapper {
+	width: 992px;
+	margin: 0 auto;
+}
+
+.module,
+.contentModule {
+	display: -moz-inline-stack; 
+	display: inline-block; 
+	position: relative;
+	margin:0 10px 0 0;
+	letter-spacing: normal; word-spacing: normal;
+	*display: inline;
+	vertical-align: top;
+	zoom: 1;
+}
+
+.module .module,
+.contentModule .module { padding: 0px; margin: 0; }
+
+
+
+
+/* recompress grid for central text to deal with 40 pix extra margin. */
+
+.span1 { width: 8.33333%; }
+.span2 { width: 16.66667%; }
+.span3 { width: 25%; }
+.span4 { width: 33.33333%; }
+.span5 { width: 41.66667%; }
+.span6 { width: 50%; }
+.span7 { width: 58.33333%; }
+.span8 { width: 66.66667%; }
+.span9 { width: 75%; }
+.span10 { width: 83.33333%; }
+.span11 { width: 91.66667%; }
+.span12 { width: 100%; }
+
+
+.zone { float: left; letter-spacing: -3px; word-spacing: -4px }
+.zone * { letter-spacing: normal; word-spacing: normal }
+.columnwidgetlist,
+.PBItem,
+.widget,
+.widget>div,
+.content,
+.content>div {
+	letter-spacing: -4px; word-spacing: -4px
+}
+
+.content>div * {
+	letter-spacing: normal; word-spacing: normal
+}
+
+	
+.zSide		                            {width: 248px;}
+footer .zMain                           {width: 744px; }
+#page .zMain                            {width: 682px;float:right;} 
+.zFull		                            {width: 992px;}
+
+
+.athleticsContent   {float: right; width: 739px; }
+
+.zAthletics         { width: 523px; padding-left: 25px; padding-top: 35px; }
+.zAthleticsSide     { width: 191px; padding-top: 75px; }
+
+
+
+/*  Don't forget: if using Ektron: ADJUST WIDTHS in Ektron Overrides TO MATCH ZONES, OR DROPZONES COLLAPSE */
+
+/*        
+
+                Tablet Layout: 720px. 
+
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.wrapper            { width: 720px!important; overflow: hidden; }
+	
+	.zSide		        {width: 180px;}
+    .zMain		        {width: 488px!important;} 
+    footer .zMain, .athleticsContent       {width: 540px!important; }
+    
+    .zAthletics { width: 335px; }
+    .zAthleticsSide     { width: 140px!important;}
+    
+    .zFull		{width: 720px;}
+	
+	.zMain .span5 {
+        margin-right: 19px;
+    }
+
+	.span1 {width: 35px;}
+    .span2 {width: 80px;}
+    .span3 {width: 125px;}
+    .span4 {width: 170px;}
+    .span5 {width: 215px;}
+    .span6 {width: 260px;}
+    .span7 {width: 305px;}
+    .span8 {width: 350px;}
+    .span9 {width: 395px;}
+    .span10 {width: 440px;}
+    .span11 {width: 485px;}
+    .span12 {width: 530px;}
+    .span13 {width: 575px;}
+    .span14 {width: 620px;}
+    .span15 {width: 665px;}
+    .span16 {width: 710px;}
+
+}
+
+/*        
+
+                Mobile Layout: 320px. 
+
+*/
+
+@media only screen and (max-width: 767px) { 
+	.wrapper, .zSide, .zMain, .zFull, .athleticsContent, .zAthleticsSide, .zAthletics { width: 320px!important; }
+    
+    #page .zMain { margin: 0!important;}
+    
+	.span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12,
+    .span13,
+    .span14,
+    .span15,
+    .span16 { 
+        width: 310px 
+     }
+     
+     .zMain .span5,
+    .zMain .span11 {
+        margin: 0;
+    }
+
+	.zone { float: none }
+}
+
+
+/*        
+
+                Wide Mobile Layout: 480px. 
+
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.wrapper, .zSide, .zMain, .zFull, .athleticsContent, .zAthleticsSide, .zAthletics { width: 480px!important; }
+    
+	.span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12,
+    .span13,
+    .span14,
+    .span15,
+    .span16 { 
+        width: 470px 
+     }
+
+	.zone { float: none }
+}

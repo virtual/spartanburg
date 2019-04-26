@@ -1,0 +1,129 @@
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+	#mainNav a {padding: 15px 30px;	font-size: 112%;}
+	#pageContent .mainContent {			margin-left: 2.564102564102564%;		}
+	.modProfile .caption { width: 25%; }
+	.modProfile img { width: 75%; }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.container-fluid { margin: 0 auto;}
+	#whatToDo h2 { font-size: 1.6em; }
+	#mainNav a {padding: 15px 7px;font-size: .9em;}
+	#audienceNav li { font-size: .9em; margin-left: 5px; }
+	#connect h3 { font-size: 1.5em }
+	
+	.modBanner { width: 31.6239%; }
+	#pageFooter {font-size: 90%;}
+
+	#pageFooter nav li {float: none; width: 100%;margin-left: 0;margin-bottom: .5em;}
+	
+	.modProfile .caption { width: 100%; }
+	.modProfile img { width: 100%; }
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	#homeCarousel{ display:none;}
+	.mainContent { float: none!important;}
+	body { padding: 0!important;}
+	.container-fluid { margin: 0 auto; padding: 10px;}
+	.navbar .btn-navbar {	background: transparent!important; float: left!important;}
+	
+	.logo { margin-top: 15px; }
+	
+	#auxNav { display: none; }
+	
+	header .container-fluid, #pageFooter .container-fluid { padding-left: 0; padding-right: 0; }
+	
+	#mainNav {border-top: 3px solid #283a6f; }
+	#mainNav li, #auxNav li { display: block;margin: 0; padding: 0; text-align: center; }
+	#mainNav li a, #auxNav li a { 
+		color: #FFFFFF;
+		display: block;
+		padding: 15px 12px;
+		text-shadow: 0 -1px 1px #1C2D42;
+		border: 0;
+		border-bottom: 1px solid #283a6f;
+	    background: #4d639c; /* Old browsers */
+		background: -moz-linear-gradient(to bottom,  #4d639c 0%, #2d4685 1%, #34487c 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4d639c), color-stop(1%,#2d4685), color-stop(100%,#34487c)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(to bottom,  #4d639c 0%,#2d4685 1%,#34487c 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(to bottom,  #4d639c 0%,#2d4685 1%,#34487c 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(to bottom,  #4d639c 0%,#2d4685 1%,#34487c 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #4d639c 0%,#2d4685 1%,#34487c 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d639c', endColorstr='#34487c',GradientType=0 ); /* IE6-9 */ 
+		font-family:'Myriad W01 Bd';
+		font-size: 1.2em;
+		}
+	#mainNav li a:hover,  #auxNav li a:hover, #mainNav li#current a { background: #405286; }
+	#mainNav li#current a {font-family:'Myriad W01 Bd'; cursor: default;}
+	#auxNav { border-top: 3px solid #283a6f; border-bottom: 3px solid #283a6f; }
+	
+	.navPage {border: 0;margin-bottom:0!important;}
+	#mainNav .navPage li a {padding: 10px 12px;background: #405286;font-family:'Myriad W01 Regular';font-size: 1.1em;	}
+	
+	#mainNav .navPage li ul li a {font-size: .8em; }
+	#mainNav .navPage  li.current a { border-color: #eee;; font-size: 1.1em;font-family:'Myriad W01 Bd'; text-shadow: 0 0 0;-moz-text-shadow: 0 0 0; background: #fff; color: #405286; }
+	#mainNav .navPage  li.current li a { padding: 5px;font-family:'Myriad W01 Regular';background: #fff; }
+	
+	.search { margin-top: 0; }
+	#audienceNav, #auxNav { position: static; }
+	#audienceNav li, #auxNav  li { float: none;margin: 0; }
+	#audienceNav { border-bottom: 0;box-shadow: 0 0 0;}
+	#audienceNav li a {
+		color: #FFFFFF;
+		display: block;
+		padding: 12px;
+		text-shadow: 0 -1px 1px #1C2D42;
+		border: 0;
+		border-bottom: 1px solid #468133;
+		background: #569f3f;
+		text-align: center;
+	}
+	#audienceNav li a:hover { background: #65a152; }
+
+	.modBanner { width: 31.6239%!important;float:left!important;margin-left: 2.5641%!important;}
+	.modBanner:first-child { margin-left: 0!important;}
+	.logo-footer { display: none; }
+	#pageFooter, #pageFooterCopyright { text-align: center; }
+	#pageFooter nav {margin-bottom: 1em;border-top: 1px solid #283a6f;}
+	#pageFooter nav li {float: none; width: 100%;margin: 0;}
+	#pageFooter nav li a { 
+		color: #FFFFFF;
+		display: block;
+		padding: 12px;
+		text-shadow: 0 -1px 1px #1C2D42;
+		border: 0;
+		border-bottom: 1px solid #283a6f;
+		background: #34487c;
+		}
+	#pageFooter nav li a:hover { background: #405286;}
+	
+	.breadcrumbs { top: 0; }
+	
+	#whatToDo { padding-top: 1.5em;}
+	.modProfile .caption, .modProfile img { width: 100%; float: none; }
+	#detailImageSet {max-width: 100%; }
+	.profileDetail img {max-width: 100%!important;}
+	
+	#calView { font-size: .8em!important;}
+	#calView li input { font-size: 1em; }
+	#miniCal { display: none; }
+	#calendarList .item .links li { display: block; }
+	
+	#contactForm label,#contactForm div input,#contactForm select,#contactForm textarea 
+	{float: none;width: 100%; }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+	#homeCarousel{ display:none;}
+	.mainContent { float: none!important;}
+	.navbar .brand { max-width: 80%; background-size: 100%; }
+	
+	.modBanner { width:100%!important; float: none!important; margin: 0 0 20px 0!important;}
+}

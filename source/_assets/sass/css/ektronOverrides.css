@@ -1,0 +1,222 @@
+﻿.content>div.ektronModalBody {
+	display: block;
+	padding: 0px;
+	background-color: #F2EFE6;
+	border: 1px solid #BAB69E
+}
+
+.content>div.ektronModalBody {
+	display: block
+}
+
+.content>div.ektronModalBody td.required {
+	font-weight: bold
+}
+
+.content>div.ektronModalBody table {
+	width: 100%;
+	margin: 0px
+}
+
+.content>div.ektronModalBody td {
+	padding: 5px 10px;
+	vertical-align: top
+}
+
+.content>div.ektronModalBody td INPUT[type="text"],
+.content>div.ektronModalBody td INPUT[type="password"],
+.content>div.ektronModalBody td TEXTAREA,
+.content>div.ektronModalBody td SELECT {
+	width: 90%;
+	padding: 3px 4px;
+	color: #444;
+	font-size: 12px;
+	border: 1px solid #ccc9af
+}
+
+/*
+.columnwidgetlist,
+.PBItem,
+.widget,
+.widget>div,
+.content,
+.content>div {
+	letter-spacing: -3px; word-spacing: -4px
+}
+
+.content>div * {
+	letter-spacing: normal; word-spacing: normal
+}
+*/
+
+.columnwidgetlist {
+	margin: 0; padding: 0
+}
+
+.PBItem ul {
+list-style:disc;
+}
+
+.PBItem ul ul {
+list-style:circle;
+}
+
+html a.EktronEditorsMenuMarker {
+	
+	height: 16px!important; width: 16px!important;
+	margin-left: -16px!important;
+	background: url(../images/Ektron-EditIcon.gif) no-repeat;
+	z-index:1;
+}
+
+html a.EktronEditorsMenuMarker img {
+	display: none
+}
+
+html ul.EktronEditorsMenu {
+	-moz-box-shadow: 2px 2px 6px #353535;
+	-webkit-box-shadow: 2px 2px 6px #353535;
+	box-shadow: 2px 2px 6px #353535;
+}
+
+html ul.EktronEditorsMenu li {
+	font-size: 12px
+}
+
+html#theHtmlTag,
+body#design_content {
+	background: transparent none
+}
+
+html div.PBColumn {
+	float: none;
+	margin-bottom: 0px
+}
+
+html div.PBColumn div.widget div.content,
+div.PBViewing div.widget div.content {
+	min-height: 0; width: auto;
+	background-color: transparent
+}
+
+html div.PBColumn div.widget div.header {
+	padding: 0 3px 3px
+}
+
+html div.PBColumn div.widget div.header img,
+.ekmenu img,
+.EktronEditorsMenu img {
+	display: inline
+}
+
+html div.PBColumn div.widget > div {
+	color: #000;
+	border-bottom: solid 1px #6F6F6F; border-left: solid 1px #6F6F6F; border-right: solid 1px #6F6F6F;
+	overflow: visible
+}
+
+div.design_content {
+	padding: 0px
+}
+
+div.EktronPersonalizationWrapper ul.ektronPersonalizationWidgetList li span,
+.ektronPBWidgetTokenDrag span {
+	color: #396f96;
+	font-size: 9px;
+	letter-spacing: normal;
+	line-height: 1
+}
+
+.zone>div,
+.dropzone,
+.PBViewing,
+.columnwidgetlist {
+	width: auto
+}
+
+html div.dropzone div.PBColumn ul.columnwidgetlist {
+	display: block;
+	min-height: 50px;
+	text-align: left
+}
+
+.ui-sortable .PBItem,
+.ui-sortable  .widget,
+.ui-sortable .widget>div,
+.ui-sortable .content,
+.ui-sortable  .content>div {
+	display: -moz-inline-stack; display: inline-block;
+	*display: inline;
+	vertical-align: top;
+	zoom: 1;
+}
+
+html div.ektronModalStandard {
+	background-color: #4B5657
+}
+
+.widgetInstruct {
+letter-spacing:normal;
+word-spacing:normal;
+}
+
+.widgetFieldInstruct {
+	display: block;
+	color: #888888;
+	font-size: 0.9em;
+	font: italic 0.9em
+}
+
+.widgetActions {
+	padding: 5px 10px;
+	text-align: right
+}
+
+.widgetSave {
+	width: auto;
+	padding: 5px 10px;
+	background-color: #E6E848; color: #6A6B19;
+	font-weight: bold;
+	background-image: linear-gradient(to bottom, #E6E848, #BABD38);
+	border: 1px solid #D1D149;
+	overflow: visible;
+}
+
+.widgetAdd {
+	width: auto;
+	padding: 5px 10px;
+	background-color: #ffdd77; color: #684819;
+	font-weight: bold;
+	background-image: linear-gradient(to bottom, #ffdd77, #ddaf25);
+	border: 1px solid #ffe072;
+	overflow: visible;
+}
+
+div.ektronModalStandard .widgetCancel {
+	width: auto;
+	padding: 5px 10px;
+	background-color: #E8DEC2; color: #4B5657;
+	font-weight: bold;
+	background-image: linear-gradient(to bottom, #E8DEC2, #BFB7A0);
+	border: 1px solid #DDD3B8;
+	overflow: visible;
+}
+
+div.ektronModalStandard div.LSEdit .LSTabInterface .LSTabPanel {
+	height: auto
+}
+
+div.PBColumn div.widget div.header div.buttons a {
+	float: right;
+	padding: 4px;
+	border: 0;
+}
+
+.ektronModalStandard .ektronModalHeader h3 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.topmenu a {
+	border: 0!important;
+}
