@@ -1,11 +1,13 @@
-<form class="searchform" name="searchform" method="get" action="https://ousearch.omniupdate.com/texis/search/">
-  <div id="search"><input type="hidden" name="pr" value="ahc"><input type="hidden" name="sufs" value="2">
-    <div class="form-group">
-      <div class="input-group">
-        <label for="search-box">Search</label>
-        <button type="submit" class="btn btn-primary"><span class="fa fa-search"></span><span class="sr-only">Submit</span></button>
-        <input name="query" class="queryAutocomplete" id="search-box" type="text" placeholder="What would you like to know?">
-      </div>
+<form id="search" method="get" action="https://sccsc.edu/search/" role="search">
+  <input type="hidden" name="cx" value="007024369287570606322:zy5iy0dt91y" /> 
+  <input type="hidden" name="cof" value="FORID:11" />
+  <!-- previously whole page was wrapped in form -->
+  <div class="span3 offset4 search">
+    <div id="search" role="search" aria-label="Search">
+      <span id="txtSearch">
+        <input type="text" id="q" name="searchtext" placeholder="Search" title="Search our website" /></span>
+      <button id="searchBtn" value="Find"><span
+          class="btn-label">Find</span><i class="icon-search" aria-hidden="true"></i></button> 
     </div>
   </div>
 </form>

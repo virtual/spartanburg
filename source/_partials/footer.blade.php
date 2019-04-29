@@ -101,3 +101,12 @@
   <!-- end Global Site Elements -->
 
 </footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="{{ $page->baseUrl }}/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>  
+<script src="{{ $page->baseUrl }}/assets/js/main.js"></script>  
+
+
+<!-- SiteImprove Analytics -->
+<!-- End SiteImprove Analytics -->

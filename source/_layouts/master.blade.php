@@ -76,41 +76,41 @@
 		</div>
 		<div class="row-fluid">
 
- 
         @if (trim($__env->yieldContent('left-nav')))
-
         <div class="span9 mainContent">
-
-            @yield('content')
-            
-
-          </div>	<!--span9-->
-          <div class="span3 sideContent">	
-            <!-- Navigation - Inpage --> 
-            
-            <!-- dzSide -->
-            dzSide
-
-          </div>
-        
-        @else
-        <!-- TwoColumnNoNav -->
-        <div class="span3 mainContent">	
-            <!-- dzSide -->
-            dzSide
-
-          </div>
-          <div class="span9 sideContent">
             <!-- dzMain -->
-            dzMain
+          @yield('content')
+        </div>
 
-            </div>
-        <!-- end TwoColumnNoNav -->
+        <div class="span3 sideContent">	 
+          <!-- Navigation - Inpage -->   
+          @yield('left-nav')
+          <!-- dzSide -->
+          @yield('sidebar')
+        </div>
+          
+        @elseif (trim($__env->yieldContent('sidebar')))
+        <!-- TwoColumnNoNav -->
+        <div class="span9">
+          <!-- dzMain -->
+          @yield('content')
+        </div>
+
+        <div class="span3">	
+          <!-- dzSide -->
+          @yield('sidebar')
+        </div>        
+        <!-- end TwoColumnNoNav --> 
+
+        @else
+        <!--! Adding a full-width option -->
+        <div class="span12 mainContent">	 
+          @yield('content')
+        </div>
+        
         @endif
- 
- 
 
-		</div><!-- / row-fluid -->
+      </div><!-- / row-fluid -->
 	</div>
 
     <!-- end TwoColumnAlt -->
@@ -122,13 +122,7 @@
 
     <!-- FOOTER -->
     @include('_partials/footer')
-      
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="{{ $page->baseUrl }}/assets/js/main.js"></script>  
- 
- 
-  <!-- SiteImprove Analytics -->
-  <!-- End SiteImprove Analytics -->
     
+    @yield('footcode')
 </body>
 </html>

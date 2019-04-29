@@ -140,16 +140,9 @@
   <!-- FOOTER -->
   @include('_partials/footer')
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="{{ $page->baseUrl }}/assets/js/main.js"></script>
-
-
   <script src="{{ $page->baseUrl }}/assets/js/jquery.prettyPhoto.js"></script>
   <script src="{{ $page->baseUrl }}/assets/js/prettyPhoto-app.js"></script>
-
-  <!-- SiteImprove Analytics -->
-  <!-- End SiteImprove Analytics -->
-
+  
+  @yield('footcode')
 </body>
-
 </html>

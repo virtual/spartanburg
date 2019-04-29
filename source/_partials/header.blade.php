@@ -15,7 +15,8 @@
         <a href="#pageContent">Skip to Main Content</a>
         <!-- END Jan 2017 Adding Accessibility Skip Nav Function JB -->
 
-        <DTWCMS:search runat="server" id="searchCtrl"></DTWCMS:search>
+        <!-- searchCtrl -->
+        @include ('_partials.searchform') 
 
       </div>
     </div>
