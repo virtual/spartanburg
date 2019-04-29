@@ -28,6 +28,12 @@ kbd.ouc {
   button { float:right; padding: 5px;}
 }
 
+@media (max-width: 767px) {
+[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
+    clear:both;
+  }
+}
+
 // .sr-only.show-on-focus {  
 //   width: auto; 
 //   height: 0;
@@ -57,6 +63,7 @@ kbd.ouc {
 
 // @import "_style_print.scss";
  
+@import "css/ektron-stylesheet.css";
 @import "css/ektronOverrides.css";
 @import "css/bootstrap.css";
 @import "css/bootstrap-responsive.css";

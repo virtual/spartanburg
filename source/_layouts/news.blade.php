@@ -3,10 +3,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,48 +12,9 @@
 
   <meta name="theme-color" content="#2e4380">
   <title>@yield('pagetitle') : Spartanburg Community College</title>
-  <meta property="og:title" content="@yield('pagetitle') | Spartanburg Community College" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="images/thumbnail.jpg" />
-  <meta property="og:url" content="https://sccsc.edu" />
-  <meta property="og:site_name" content="Spartanburg Community College" />
-  <meta property="og:description" content="Spartanburg Community College..." />
-  <meta property="og:locale" content="en_us" />
-  <link rel="image_src" href="{{ $page->baseUrl }}/resources/images/thumbnail.jpg" />
-
-  <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/main.css" />
-  <!--[if lt IE 9]> 
-		<link href="{{ $page->baseUrl }}/css/ie.css" rel="stylesheet">
-	<![endif]-->
-  <!--[if lte IE 9]> 
-		<link href="{{ $page->baseUrl }}/css/ie9.css" rel="stylesheet">
-	<![endif]-->
-  <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/oustyles.css" />
-
-  <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144"
-    href="{{ $page->baseUrl }}/resources/images/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114"
-    href="{{ $page->baseUrl }}/resources/images/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72"
-    href="{{ $page->baseUrl }}/resources/images/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed"
-    href="{{ $page->baseUrl }}/resources/images/ico/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="{{ $page->baseUrl }}/resources/images/ico/favicon.ico">
-
-
-  <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/prettyPhoto.css" />
-
-  <noscript>
-
-  </noscript>
-  @yield('headcode')
-
-
-  <!-- Facebook Pixel Code -->
-  <!-- End Facebook Pixel Code -->
+  <meta property="og:title" content="@yield('pagetitle') : Spartanburg Community College" />
+  @include('_partials/headcode')
 </head>
-
 <body>
   <!-- Google Tag Manager -->
   <!-- End Google Tag Manager -->

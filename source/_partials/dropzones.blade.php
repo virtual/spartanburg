@@ -36,3 +36,13 @@
     Column4
   </div>
 </div>
+
+<h2>2-Column Snippet (40% / 60%) (Homepage Dropzones)</h2>
+<div class="row-fluid">
+  <div class="span5">
+    Column1
+  </div>
+  <div class="span7">
+    Column2
+  </div>
+</div>
