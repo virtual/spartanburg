@@ -2,5 +2,5 @@
   <a href="/" class="brHome">Home</a>
   <a href="/schools-list/">Schools &amp; Programs</a>
   <a href="/credit-programs">Academic Credit Programs</a>
-  SCC Schools of Learning 
+  <span>SCC Schools of Learning </span>
 </nav>

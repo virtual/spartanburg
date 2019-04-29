@@ -31,7 +31,7 @@
       <div class="row-fluid">
         <div class="span12">
           <!-- Navigation - Breadcrumb - Detail -->
-          @include('_partials/breadcrumbs-newsdetail')
+          @include('_partials/breadcrumbs-detail')
           <!-- end Navigation - Breadcrumb - Detail -->
         </div>
       </div>
