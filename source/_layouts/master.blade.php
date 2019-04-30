@@ -20,8 +20,6 @@
   <!-- End Google Tag Manager -->
 
   @include('_partials.header')
-  <!-- @include('_partials.topbar')  -->
-
  
   <!-- INTERIOR -->
 

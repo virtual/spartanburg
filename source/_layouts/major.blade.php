@@ -24,12 +24,8 @@
   <!-- End Google Tag Manager -->
 
   @include('_partials.header')
-  <!-- @include('_partials.topbar')  -->
 
-
-  <!-- ! USED for courses and /cce -->
   <!-- INTERIOR -->
-
   <section id="pageContent" name="Lower Header" role="banner" aria-label="Lower Header">
 
     <div class="container-fluid">
