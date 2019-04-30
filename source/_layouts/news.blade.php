@@ -14,6 +14,9 @@
   <title>@yield('pagetitle') : Spartanburg Community College</title>
   <meta property="og:title" content="@yield('pagetitle') : Spartanburg Community College" />
   @include('_partials/headcode')
+
+  <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/prettyPhoto.css" /> 
+
 </head>
 <body>
   <!-- Google Tag Manager -->

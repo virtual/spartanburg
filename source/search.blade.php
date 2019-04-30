@@ -21,8 +21,4 @@ Search Spartanburg Community College
 @include ('_partials/sidebar-contact')
 @endsection
 
-
-@section('alert')
-true
-@endsection
  

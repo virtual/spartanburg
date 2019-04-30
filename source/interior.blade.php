@@ -31,6 +31,9 @@ Interior with Snippets
 
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, explicabo expedita alias corrupti molestiae enim aspernatur consequatur illum est a beatae nemo eum voluptates vitae corporis ab ipsam incidunt dolorum.</p>
 
+<h2>Link Set Snippet</h2>
+@include('_partials/linkset')
+
 @include('_partials/dropzones')
 
 @endsection

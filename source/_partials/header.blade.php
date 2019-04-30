@@ -44,3 +44,5 @@
   <!-- / Google Translate Element -->
 
 </header>
+
+@include('_partials.topbar') 
