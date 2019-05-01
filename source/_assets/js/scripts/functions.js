@@ -4,9 +4,7 @@ jQDatatel = {};
 //dom update for tablet and lower views
 $(document).ready(function () {
 		var breakPoint = 767; //Breakpoint value goes here
-		function orderElements() {
-      console.log($(window).width())
-      console.log(window.innerWidth)
+		function orderElements() { 
 			if (window.innerWidth > breakPoint) {  // if bigger than breakpoint
         // $('.navPage').insertAfter($('#ctl00_Main_fmPageNav'));
         $('.navPage').prependTo($('.sideContent'));
