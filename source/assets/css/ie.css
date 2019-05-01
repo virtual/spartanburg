@@ -1,0 +1,56 @@
+﻿
+
+/* ie8 */
+.lt-ie9 #homeCarousel .caption {
+	background: #141d37;
+}
+
+
+/* ie7 */
+
+.lt-ie8 #homeCarousel .caption {
+	width: 98%;
+}
+
+.lt-ie8 .modEvents .details {
+	width: 75%;
+}
+
+.lt-ie8 .modNews .featured .details {
+	width: 65%;
+}
+
+.lt-ie8 #pageFooter nav li {
+	width: 40%;
+}
+
+.lt-ie8 .breadcrumbs .brHome {
+	position: relative;
+	top: -6px;
+}
+
+.lt-ie8 .modProfile .caption { 
+	width: 20%;
+ } 
+
+.lt-ie8 .span3 .modEvents .details {
+	width: 65%;
+} 
+
+.lt-ie8 ol.modSteps { 
+	list-style:decimal!important;
+	margin-left: 30px;
+	}
+	
+.lt-ie8 ol.modSteps li {
+	padding-left: 10px;
+	list-style:decimal!important;
+}
+
+.lt-ie8 .apply {
+	width: 90%;
+}
+
+.lt-ie8 #flickrBlock a {
+	width: 29%;
+}

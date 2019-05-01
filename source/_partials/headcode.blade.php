@@ -15,14 +15,14 @@
   <!-- Google Tag Manager -->
   <!-- End Google Tag Manager -->
   <link rel="stylesheet" href="https://catalog.sccsc.edu/widget-api/widget-api.min.css" />
-  <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/main.css" /> 
+  <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/main.css?v=2" /> 
   <!--[if lt IE 9]> 
-		<link href="{{ $page->baseUrl }}/css/ie.css" rel="stylesheet">
+		<link href="{{ $page->baseUrl }}/assets/css/ie.css" rel="stylesheet">
 	<![endif]-->
 	<!--[if lte IE 9]> 
-		<link href="{{ $page->baseUrl }}/css/ie9.css" rel="stylesheet">
+		<link href="{{ $page->baseUrl }}/assets/css/ie9.css" rel="stylesheet">
 	<![endif]-->
-  <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/oustyles.css" /> 
+  <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/oustyles.css?v=2" /> 
  
   <!-- Fav and touch icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ $page->baseUrl }}/resources/images/ico/apple-touch-icon-144-precomposed.png">
