@@ -11439,6 +11439,106 @@ kbd.ouc {
   }
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.sr-only.show-on-focus {
+  width: auto;
+  height: 0;
+  -webkit-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+  padding: .5rem;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  background: #546597 !important;
+  color: #fff !important;
+}
+
+.sr-only.show-on-focus:focus {
+  height: auto;
+  clip: auto;
+  overflow: auto;
+  top: 0;
+  -webkit-clip-path: initial;
+          clip-path: initial;
+  white-space: normal;
+  display: inline-block;
+  z-index: 1000;
+}
+
+header .header-banner {
+  padding-top: 20px;
+}
+
+header .header-banner #auxNav {
+  margin-top: 20px;
+  position: relative;
+  top: 0;
+}
+
+header .header-banner .logo {
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+header .header-banner #searchform {
+  float: right;
+  margin-top: 10px;
+  background: none;
+}
+
+header .header-banner .search {
+  margin-top: 0;
+  float: none;
+  background: #546597;
+}
+
+@media (min-width: 768px) {
+  #auxNav ul {
+    float: right;
+  }
+  header .header-banner #searchform {
+    margin-top: 30px;
+  }
+  .logo {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #searchform {
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  #searchform {
+    padding: 0 5%;
+    float: none;
+    width: 90%;
+  }
+  #mainNav li, #auxNav li {
+    text-align: left;
+  }
+  #mainNav .navPage li.current li a {
+    padding-left: 15px;
+  }
+  #auxNav {
+    position: relative;
+    top: auto;
+    display: block;
+  }
+}
+
 .topnav {
   background-color: #fff;
 }

@@ -625,34 +625,23 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 // Namespace for older scripts
 jQDatatel = {};
 
-// for search: pulls qstring value and dumps to field.
-
-function getQuery(param) {
-	var p = escape(unescape(param));
-	var regex = new RegExp("[?&]" + p + "(?:=([^&]*))?", "i");
-	var match = regex.exec(window.location.search);
-	var value = null;
-	if (match != null) {
-		value = match[1];
-	}
-	return value;
-}
-
 //dom update for tablet and lower views
 $(document).ready(function () {
-
 	var breakPoint = 767; //Breakpoint value goes here
-
-
 	function orderElements() {
-		if ($(window).width() > breakPoint) {
+		console.log($(window).width());
+		console.log(window.innerWidth);
+		if (window.innerWidth > breakPoint) {
 			// if bigger than breakpoint
-			$('.navPage').insertAfter($('#ctl00_Main_fmPageNav'));
-		}
-		if ($(window).width() < breakPoint) {
+			// $('.navPage').insertAfter($('#ctl00_Main_fmPageNav'));
+			$('.navPage').prependTo($('.sideContent'));
+			$('#audienceNav').appendTo($('#header'));
+			$('#auxNav').appendTo($('#auxnav-container'));
+		} else {
 			// if tablet or smaller
 			$('#audienceNav').insertBefore($('footer'));
 			$('.navPage').insertAfter($('#current'));
+			$('#auxNav').appendTo($('#mainNav'));
 		}
 	}
 	orderElements(); //run immediately
