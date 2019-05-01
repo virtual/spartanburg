@@ -24,10 +24,11 @@ Interior with Snippets
 'SectionTitle' => 'Steps Accordion - Style 2'
 ])
 
-@include('_partials.accordion', [
+<!-- "Yes, merging is fine, so we will have those [Style 1 and 2 only; Style 3 merges to Style 2] two options." - Jane -->
+<!-- @include('_partials.accordion', [
 'style' => '3',
 'SectionTitle' => 'Steps Accordion - Style 3'
-])
+]) -->
 
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, explicabo expedita alias corrupti molestiae enim aspernatur consequatur illum est a beatae nemo eum voluptates vitae corporis ab ipsam incidunt dolorum.</p>
 

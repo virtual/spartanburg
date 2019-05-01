@@ -1,0 +1,9 @@
+.pagination ul {
+  padding-left: 0;
+  &> li > a,  &> li > span {
+    border: 0;
+    font-size: 16px;
+  }
+  li a.disabled { color: #666; cursor: default;  }
+  li a.active { background-color: #2d4380; color: #fff; }
+}

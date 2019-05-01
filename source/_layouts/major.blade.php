@@ -92,10 +92,11 @@
 
          
           <!-- ltrSidebar - Major - Sidebar.xslt -->
-          <a href="#" class="majorEmployment">
+          <!-- "No, we don’t use that if you want to omit." - Jane -->
+          <!-- <a href="#" class="majorEmployment">
             <strong>Employment Outlook</strong>
             CIP Code: EmploymentCode
-          </a>
+          </a> -->
 
 
           @yield('sidebar')

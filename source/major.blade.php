@@ -5,6 +5,7 @@ Major
 @endsection
 
 @section('breadcrumb')
+<!-- "Please do use the breadcrumbs [on Majors] – they went rogue on us before" - Jane -->
 @include('_partials/breadcrumbs')
 @endsection
  
