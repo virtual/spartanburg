@@ -30,7 +30,7 @@
 
   <!-- Google Tag Manager -->
   <!-- End Google Tag Manager -->
-
+  <link rel="stylesheet" href="https://catalog.sccsc.edu/widget-api/widget-api.min.css" />
   <link rel="stylesheet" href="https://virtual.github.io/spartanburg/assets/css/main.css" /> 
   <!--[if lt IE 9]> 
 		<link href="https://virtual.github.io/spartanburg/css/ie.css" rel="stylesheet">
@@ -60,28 +60,42 @@
   <!-- End Google Tag Manager -->
 
   <header id="header">
+   
+   <div>
+      <p><a class="show-on-focus sr-only" href="#pageContent">Skip to Main Content</a></p>
+    </div>
+   
   <div class="navbar" role="navigation" aria-label="Audience">
     <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
       <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
       </span>
     </button>
-    <div class="container-fluid" role="banner" aria-label="Header">
+    <div class="container-fluid header-banner" role="banner" aria-label="Header">
       <div class="row-fluid">
-      </div>
-      <div class="span5">
-        <a class="logo" href="/home">Spartanburg Community College</a>
-      </div>
-      <!-- Jan 2017 Adding Accessibility Skip Nav Function JB -->
-      <div id="skiptocontent">
-        <a href="#pageContent">Skip to Main Content</a>
-        <!-- END Jan 2017 Adding Accessibility Skip Nav Function JB -->
+        <div class="span5">
+          <a class="logo" href="/home">Spartanburg Community College</a>
+         
+         
+        </div>
+        <div class="span7">
+          <!-- AuxNav -->
+          <div id="auxnav-container">
+            <div id="auxNav">
+  <ul>
+    <li><a href="https://sccsc.elluciancrmrecruit.com/admissions/pages/welcome.aspx">APPLY NOW</a></li>
+    <li><a href="https://sccsc.elluciancrmrecruit.com/admissions/pages/welcome.aspx">Application Status</a></li>
+    <li><a href="/portal">MySCC Portal</a></li>
+    <li><a href="/scc-connect">MySCC App</a></li>
+    <li><a href="/contact">Contact Us</a></li>
+  </ul>
+</div>          </div>
 
-        <!-- searchCtrl -->
-        <form id="search" method="get" action="https://sccsc.edu/search/" role="search">
+          <!-- searchCtrl -->
+        <form id="searchform" method="get" action="https://sccsc.edu/search/" role="search">
   <input type="hidden" name="cx" value="007024369287570606322:zy5iy0dt91y" /> 
   <input type="hidden" name="cof" value="FORID:11" />
   <!-- previously whole page was wrapped in form -->
-  <div class="span3 offset4 search">
+  <div class="search">
     <div id="search" role="search" aria-label="Search">
       <span id="txtSearch">
         <input type="text" id="q" name="searchtext" placeholder="Search" title="Search our website" /></span>
@@ -91,7 +105,12 @@
   </div>
 </form> 
 
+        </div>
       </div>
+      
+      
+        
+
     </div>
     <div class="nav-collapse collapse" role="navigation" aria-label="Primary List">
       <!-- Navigation-Global -->
@@ -107,17 +126,7 @@
     </ul>  
   </div>
 </div>
-      <!-- AuxNav -->
-      <div class="container-fluid">
-        <div id="auxNav">
-  <ul>
-    <li><a href="https://sccsc.elluciancrmrecruit.com/admissions/pages/welcome.aspx">APPLY NOW</a></li>
-    <li><a href="https://sccsc.elluciancrmrecruit.com/admissions/pages/welcome.aspx">Application Status</a></li>
-    <li><a href="/portal">MySCC Portal</a></li>
-    <li><a href="/scc-connect">MySCC App</a></li>
-    <li><a href="/contact">Contact Us</a></li>
-  </ul>
-</div>      </div>
+      
     </div>
 
     
@@ -345,6 +354,9 @@
 <script src="https://virtual.github.io/spartanburg/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>  
 <script src="https://virtual.github.io/spartanburg/assets/js/main.js"></script>  
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://catalog.sccsc.edu/widget-api/widget-api.min.js"></script>
+<script src="https://virtual.github.io/spartanburg/assets/js/acalog-app.js"></script>  
 
 <!-- SiteImprove Analytics -->
 <!-- End SiteImprove Analytics -->
