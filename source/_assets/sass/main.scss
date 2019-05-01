@@ -71,6 +71,7 @@ header .header-banner {
     margin-top: 20px;
     position: relative;
     top: 0;
+    a:focus { color: #fff; }
   }
   .logo { padding-top: 0;
     padding-bottom: 10px;}
@@ -78,6 +79,7 @@ header .header-banner {
     float: right;
     margin-top: 10px;
     background: none;
+    button { padding-top: 2px;}
   }
   .search { margin-top: 0; 
     float: none;
