@@ -14,7 +14,7 @@
 
   <!-- Google Tag Manager -->
   <!-- End Google Tag Manager -->
-
+  <link rel="stylesheet" href="https://catalog.sccsc.edu/widget-api/widget-api.min.css" />
   <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/main.css" /> 
   <!--[if lt IE 9]> 
 		<link href="{{ $page->baseUrl }}/css/ie.css" rel="stylesheet">
