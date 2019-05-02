@@ -1,3 +1,6 @@
+<kbd class="ouc">Edit Sidebar</kbd>
+<p>Editable region; example: Alumni;  does not allow edit of contact</p>
+
 <!-- ! Driven by _sidebar.inc or similar -->
 <section class="modContactInfo">
   <h4>SCC President Henry C. Giles, Jr.</h4><strong>Address</strong>SCC Central Campus<br>Student Services Building<p>

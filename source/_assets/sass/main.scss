@@ -109,8 +109,7 @@ header .header-banner {
 
 @import "_style_topnav.scss"; 
 
-// @import "_style_print.scss";
- 
+// @import "_style_print.scss"; 
 @import "css/ektron-stylesheet.css";
 @import "css/ektronOverrides.css";
 @import "css/bootstrap.css";
@@ -118,3 +117,5 @@ header .header-banner {
 @import "css/client.css";
 @import "css/client-responsive.css"; 
 @import "_style_pagination.scss";
+@import "_style_header-overrides.scss";
+@import "_style_video.scss";

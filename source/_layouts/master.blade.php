@@ -42,13 +42,13 @@
 		</div>
 		<div class="row-fluid">
 
-        @if (trim($__env->yieldContent('left-nav')))
-        <div class="span9 mainContent">
+        @if ((trim($__env->yieldContent('left-nav'))) || (trim($__env->yieldContent('sidebar'))))
+        <div class="span9 mainContent" class="content-main">
             <!-- dzMain -->
           @yield('content')
         </div>
 
-        <div class="span3 sideContent">	 
+        <div class="span3 sideContent" class="content-sidebar">	 
           <!-- Navigation - Inpage -->   
           @yield('left-nav')
           <!-- dzSide -->
@@ -56,23 +56,10 @@
           @yield('sidebar')
           
         </div>
-          
-        @elseif (trim($__env->yieldContent('sidebar')))
-        <!-- TwoColumnNoNav -->
-        <div class="span9">
-          <!-- dzMain -->
-          @yield('content')
-        </div>
-
-        <div class="span3">	
-          <!-- dzSide -->
-          @yield('sidebar')
-        </div>        
-        <!-- end TwoColumnNoNav --> 
-
+       
         @else
         <!--! Adding a full-width option -->
-        <div class="span12 mainContent">	 
+        <div class="span12 mainContent content-main">	 
           @yield('content')
         </div>
         

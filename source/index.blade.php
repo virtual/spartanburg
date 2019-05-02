@@ -5,9 +5,6 @@
 @endsection
 
 @section('footcode')
-<script src="{{ $page->baseUrl }}/assets/js/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
-<script src="{{ $page->baseUrl }}/assets/js/jquery.touchSwipe.min.js" type="text/javascript"></script>
-<script src="{{ $page->baseUrl }}/assets/js/home-app.js"></script>
 @endsection
 
 @section('hero')

@@ -19,5 +19,5 @@ ENG-101 - English Composition I
 
 @section('sidebar')
   <kbd class="ouc">Edit Sidebar</kbd>
-  Editable region might be needed, eg CCE
+  Editable region  
 @endsection

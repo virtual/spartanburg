@@ -23,7 +23,7 @@
 		<link href="{{ $page->baseUrl }}/assets/css/ie9.css" rel="stylesheet">
 	<![endif]-->
   <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/css/oustyles.css?v=2" /> 
- 
+
   <!-- Fav and touch icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ $page->baseUrl }}/resources/images/ico/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ $page->baseUrl }}/resources/images/ico/apple-touch-icon-114-precomposed.png">

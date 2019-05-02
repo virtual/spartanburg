@@ -64,7 +64,7 @@
 
 
     <!-- FOOTER -->
-    @include('_partials/footer')
+    @include('_partials/footer-home')
     
     @yield('footcode')
 </body>

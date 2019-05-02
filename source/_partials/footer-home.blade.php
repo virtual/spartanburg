@@ -102,18 +102,15 @@
 
 </footer>
 
+<!-- DIFFERENT FOR HOME -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="{{ $page->baseUrl }}/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>  
 <script src="{{ $page->baseUrl }}/assets/js/main.js?v=2"></script>  
 
-<script src="https://catalog.sccsc.edu/widget-api/widget-api.min.js"></script>
-<script src="{{ $page->baseUrl }}/assets/js/acalog-app.js"></script>  
-
-<!-- possible to check if .rotator is on page? -->
 <script src="{{ $page->baseUrl }}/assets/js/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
 <script src="{{ $page->baseUrl }}/assets/js/jquery.touchSwipe.min.js" type="text/javascript"></script>
-<script src="{{ $page->baseUrl }}/assets/js/rotator-app.js" type="text/javascript"></script> 
-<!-- end if .rotator is on page -->
+<script src="{{ $page->baseUrl }}/assets/js/home-app.js" type="text/javascript"></script> 
+<!-- end DIFFERENT FOR HOME -->
 
 <!-- SiteImprove Analytics -->
 <!-- End SiteImprove Analytics -->
