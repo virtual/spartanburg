@@ -1,18 +1,6 @@
-<div class="modBanner">
-  <a href="{{ $page->baseUrl }}/resources/images/news-stories/socheata-student-feature.jpg" target="_blank">
-    <img src="{{ $page->baseUrl }}/resources/images/news-stories/socheata-student-feature.jpg"
-      alt="socheata-student-feature" />
-  </a>
-</div>
-<div class="modBanner">
-  <a href="{{ $page->baseUrl }}/resources/images/news-stories/socheata-student-feature.jpg" target="_blank">
-    <img src="{{ $page->baseUrl }}/resources/images/news-stories/socheata-student-feature.jpg"
-      alt="socheata-student-feature" />
-  </a>
-</div>
-<div class="modBanner">
-  <a href="{{ $page->baseUrl }}/resources/images/news-stories/socheata-student-feature.jpg" target="_blank">
-    <img src="{{ $page->baseUrl }}/resources/images/news-stories/socheata-student-feature.jpg"
-      alt="socheata-student-feature" />
-  </a>
+<div class="banner-inpage">
+  <div id="container">
+    <img src="{{ $page->baseUrl }}/resources/images/banners/student-success-services.jpg"
+      alt="A collage of students working and studying" />
+  </div>
 </div>

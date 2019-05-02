@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
   <div id="pageFooterTop" role="banner" aria-label="Footer">
     <div class="container-fluid">
       <div class="row-fluid">

@@ -11,6 +11,9 @@ Interior with Snippets
 
 @section('content')
 
+<!-- Banner - InPage -->
+@include('_partials/banner-inpage')
+
 <h2>Rotator - In Page</h2>
 @include('_partials/rotator-inpage', [
 'style' => ''
@@ -22,8 +25,7 @@ Interior with Snippets
 ])
 
 
-<!-- ! Banner - InPage; need a live ref example -->
-<!-- @include('_partials/banner-inpage') -->
+
 
 @include('_partials.accordion', [
 'style' => '',

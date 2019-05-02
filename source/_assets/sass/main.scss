@@ -104,12 +104,16 @@ header .header-banner {
     position: relative; top: auto; display: block;
   }
 }
+h1,h2,h3,h4,h5,h6 { clear:both; }
+#contactForm input {
+  height: auto;
+}
 
 // @import "_style_accessibility.scss";  
 
 @import "_style_topnav.scss"; 
 
-// @import "_style_print.scss"; 
+@import "_style_print.scss"; 
 @import "css/ektron-stylesheet.css";
 @import "css/ektronOverrides.css";
 @import "css/bootstrap.css";

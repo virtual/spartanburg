@@ -43,12 +43,12 @@
 		<div class="row-fluid">
 
         @if ((trim($__env->yieldContent('left-nav'))) || (trim($__env->yieldContent('sidebar'))))
-        <div class="span9 mainContent" class="content-main">
+        <div class="span9 mainContent content-main">
             <!-- dzMain -->
           @yield('content')
         </div>
 
-        <div class="span3 sideContent" class="content-sidebar">	 
+        <div class="span3 sideContent content-sidebar">	 
           <!-- Navigation - Inpage -->   
           @yield('left-nav')
           <!-- dzSide -->
