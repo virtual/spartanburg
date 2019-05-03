@@ -662,26 +662,26 @@ h6{
 }
 /* ---------->>> HOMEPAGE <<<-----------*/	
 
-#homeCarousel {
+.homeCarousel {
 	padding: 10px;
 	background: #fff;
 }
 
-#homeCarousel.pageCarousel {
+.homeCarousel.pageCarousel {
 	padding: 0;
 	}
 
-	#homeCarousel .item {
+	.homeCarousel .item {
 		position: relative;
 	}
 	
-	#homeCarousel.pageCarousel img {
+	.homeCarousel.pageCarousel img {
 		width: 100%;
 		}
 		
 	
 
-	#homeCarousel .caption {
+	.homeCarousel .caption {
 		padding:15px 15px 0 15px;
 		color: #fff;
 		position: absolute;
@@ -692,7 +692,7 @@ h6{
 		width: 100%;
 	}
 	
-	#homeCarousel.pageCarouselSideCap .caption {
+	.homeCarousel.pageCarouselSideCap .caption {
 		top: 0;
 		right: 0;
 		left: auto;
@@ -700,7 +700,7 @@ h6{
 		width: 20%;
 		}
 
-		#homeCarousel .caption h2 {
+		.homeCarousel .caption h2 {
 			color: #fff;
 			line-height: 1;
 			margin: 0;
@@ -708,14 +708,14 @@ h6{
 				font-family:'Myriad W08 Light';
 		}
 		
-		#homeCarousel .caption h2,
-		#homeCarousel .caption p {
+		.homeCarousel .caption h2,
+		.homeCarousel .caption p {
 			width: 80%;
 			border: 0;
 		}
 
 		
-		#homeCarousel .caption a {
+		.homeCarousel .caption a {
 			width: 20%;
 			position: absolute;
 			bottom: 20px;
@@ -728,12 +728,12 @@ h6{
 			font-family:'Myriad W01 Cnd';
 		}
 		
-		#homeCarousel.pageCarouselSideCap a {
+		.homeCarousel.pageCarouselSideCap a {
 			width: auto;
 			position: static;
 			}
 
-	#homeCarousel .pagination {
+	.homeCarousel .pagination {
 		position: relative;
 		top: auto;
 		left: auto;
@@ -742,7 +742,7 @@ h6{
 		text-align: center;
 	}
 
-		#homeCarousel .pagination a {
+		.homeCarousel .pagination a {
 			background: url(../../resources/images/pagination.png) no-repeat;
 			width: 14px;
 			height: 14px;
@@ -757,7 +757,7 @@ h6{
 			border: 0;
 		}
 
-		#homeCarousel .pagination a.selected {
+		.homeCarousel .pagination a.selected {
 			background-position: -18px 0;
 		}
 		

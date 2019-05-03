@@ -12,16 +12,29 @@ div.PBColumn ul.columnwidgetlist {
   -moz-border-radius: 4px;
   border-radius: 4px;
   margin: 0;
-  padding: 0;
-  list-style-type: none;
-  background-position: top;
-  background-image:url('{{ $page->baseUrl }}/resources/images/Themes/TrueBlue/header-background.png');
-  background-repeat: repeat-x;
-  border: 1px solid #BBB
+  padding: 0; 
 }
 
-/* review */
+div.PBViewing ul.columnwidgetlist {
+  border: solid 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
 
+div.PBViewing {
+  float: left;
+  margin: 0
+}
+
+div.PBViewing ul.columnwidgetlist>li {
+  margin: 0;
+  padding-top: 0
+}
+
+
+/* review */
+/* 
 .topmenu *,
 div.EktronPersonalizationWrapper * {
   font-family: Arial, Verdana, sans-serif !important
@@ -588,22 +601,6 @@ div.PBColumn img.PB-UI-icon {
   vertical-align: middle
 }
 
-div.PBViewing ul.columnwidgetlist {
-  border: solid 0;
-  margin: 0;
-  padding: 0;
-  list-style-type: none
-}
-
-div.PBViewing {
-  float: left;
-  margin: 0
-}
-
-div.PBViewing ul.columnwidgetlist>li {
-  margin: 0;
-  padding-top: 0
-}
 
 div.PBViewing div.widget div.header {
   display: none
@@ -972,17 +969,7 @@ div.ektronModalBody table td {
 .ektronModalStandard .clearfix {
   display: inline-block
 }
-
-/*\*/
-* html .ektronModalStandard .clearfix {
-  height: 1%
-}
-
-.ektronModalStandard .clearfix {
-  display: block
-}
-
-/**/
+  
 a#ektronPageBuilderCancel,
 a#ektronPageBuilderFinish,
 a#ektronPageBuilderNext,
@@ -1151,4 +1138,4 @@ a#ektronPageBuilderFinish:hover {
   height: 52px;
   width: 247px;
   background-image: url('/WorkArea/images/application/bubble/bott.gif')
-}
+} */

@@ -1,14 +1,14 @@
 ﻿
 
 /* ie8 */
-.lt-ie9 #homeCarousel .caption {
+.lt-ie9 .homeCarousel .caption {
 	background: #141d37;
 }
 
 
 /* ie7 */
 
-.lt-ie8 #homeCarousel .caption {
+.lt-ie8 .homeCarousel .caption {
 	width: 98%;
 }
 

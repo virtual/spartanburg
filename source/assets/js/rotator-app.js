@@ -7,7 +7,10 @@ if ($('.rotator')[0]) {
       visible: 1
     },
     pagination: {
-      container: "#Pagination"
+      container: 
+      function(){
+          return $(this).parents('.homeCarousel').find('.pagination');
+      }
     },
     scroll: {
       pauseOnHover: true,
