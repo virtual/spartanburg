@@ -41,28 +41,28 @@
             
 
           <!-- ltrOutputStream - Major - Details.xslt -->
-          <section class="major">
+          <div class="major">
           <h2>Information/Programs</h2>
-          <div class="requirements">
-            Editable region or Multiedit WYSIWYG
-          </div>
+          <section class="requirements">
+            <p>Editable region or Multiedit WYSIWYG</p>
+          </section>
 
           @include('_partials/progoption-acalog')
 
-          <h2>Overview</h2>
-          <div class="overview">
+          <section class="overview">
+              <h2>Overview</h2>
             <a href="/apply" class="button" id="majorApply">Apply Today!</a>
-            Editable region or Multiedit WYSIWYG
-          </div>
+            <p>Editable region or Multiedit WYSIWYG</p>
+          </section>
 
           <!-- if Costs -->
-          <h2>Tuition and Other Fees</h2>
-          <div class="costs">
-            Editable region or Multiedit WYSIWYG
-          </div>
+          <section class="costs">
+              <h2>Tuition and Other Fees</h2>
+            <p>Editable region or Multiedit WYSIWYG</p>
+          </section>
           <!-- end if Costs -->
           <!-- end ltrOutputStream - Major - Details.xslt -->
-          </section>
+        </div>
 
         </main>
         <div class="span3 sideContent">
