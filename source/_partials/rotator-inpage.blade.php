@@ -1,4 +1,4 @@
-<div id="homeCarousel" class="pageCarousel {{$style}}">
+<div class="homeCarousel pageCarousel {{$style}}">
   <div class="rotator">
     <div class="item"><img src="{{ $page->baseUrl }}/resources/images/photo-rotator/Rotator-mini-CAMIT.jpg?n=4923" width="800" height="200"
         alt="MINI CAMIT Rotator">

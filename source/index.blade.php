@@ -14,7 +14,7 @@
 @endsection
 
 @section('carousel')
-<div id="homeCarousel">
+<div class="homeCarousel">
   <div class="rotator">
 
     <div class="item"><img src="{{ $page->baseUrl }}/resources/images/carousel/Rotator-Connect-2016.jpg"

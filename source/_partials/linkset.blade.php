@@ -1,6 +1,5 @@
 <section class="module courseListing clearfix">
-  <h3>Title</h3>
-  <xsl:for-each select="root/Linkset">
+  <h3>Title</h3> 
     <div class="col-xs-6 col-md-4">
       <nav class="set">
         <ul>
@@ -12,6 +11,6 @@
         </ul>
       </nav>
 
-      Lorem ipsum content area
+      <p>Lorem ipsum content area</p>
     </div>
 </section>
