@@ -42,10 +42,10 @@
 
           <!-- ltrOutputStream - Major - Details.xslt -->
           <div class="major">
-          <h2>Information/Programs</h2>
-          <section class="requirements">
-            <p>Editable region or Multiedit WYSIWYG</p>
-          </section>
+            <section class="requirements">
+              <h2>Information/Programs</h2>
+              <p>Editable region or Multiedit WYSIWYG</p>
+            </section>
 
           @include('_partials/progoption-acalog')
 

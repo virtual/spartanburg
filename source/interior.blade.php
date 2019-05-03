@@ -66,8 +66,8 @@ Interior with Snippets
 
 </div>
 
-<h2>Events - Student Life</h2>
 <section class="modEvents">
+    <h2>Events - Student Life</h2>
     <div class="details"><a href="https://calendar.sccsc.edu" class="viewAll">Full Calendar</a><p>5/9/2019 <br/><a class="h4" href="https://calendar.sccsc.edu/event/grad19/">Graduation Commencement</a></p></div>
 </section>
 
