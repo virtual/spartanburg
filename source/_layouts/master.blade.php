@@ -22,7 +22,7 @@
  
   <!-- INTERIOR -->
 
-  <section id="pageContent">
+  <div id="pageContent">
       
     <!-- TwoColumnAlt -->
 <div class="container-fluid">
@@ -70,7 +70,7 @@
     <!-- end TwoColumnAlt -->
  
 
-  </section>
+</div>
  
 
 

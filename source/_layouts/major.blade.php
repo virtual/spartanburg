@@ -3,10 +3,6 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,7 +22,7 @@
   @include('_partials.header')
 
   <!-- INTERIOR -->
-  <section id="pageContent">
+  <div id="pageContent">
 
     <div class="container-fluid">
       <div class="row-fluid">
@@ -123,7 +119,7 @@
 
       </div><!-- / row-fluid -->
     </div>
-  </section>
+  </div>
 
   <!-- FOOTER -->
   @include('_partials/footer')
