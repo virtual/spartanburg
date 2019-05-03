@@ -7,7 +7,7 @@
       <span id="txtSearch">
         <input type="text" id="q" name="searchtext" placeholder="Search" title="Search our website" /></span>
       <button id="searchBtn" value="Find"><span
-          class="btn-label">Find</span><i class="icon-search" aria-hidden="true"></i></button> 
+          class="btn-label">Find</span><span class="icon-search" aria-hidden="true"></span></button> 
     </div>
   </div>
 </form>

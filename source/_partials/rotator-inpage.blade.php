@@ -34,5 +34,5 @@
       </div>
     </div>
   </div>
-  <div class="pagination" id="Pagination">&nbsp;</div>
+  <div class="pagination">&nbsp;</div>
 </div>

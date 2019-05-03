@@ -64,7 +64,7 @@
 
 @section('sidebar')
 <div id="whatToDo">
-  <h1>What do you want to do?</h1>
+  <h2>What do you want to do?</h2>
   <div class="row-fluid slide">
     <div class="toggle purple span6 alt">Earn a Certificate or Degree</div>
     <div class="purple details panel">

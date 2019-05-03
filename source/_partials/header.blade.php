@@ -12,8 +12,13 @@
     <div class="container-fluid header-banner" role="banner" aria-label="Header">
       <div class="row-fluid">
         <div class="span5">
+            @if (trim($__env->yieldContent('social')))
+            <!-- HOMEPAGE ONLY -->
+          <h1 class="homepage-logo"><a class="logo" href="/home">Spartanburg Community College</a></h1>
+          @else
           <a class="logo" href="/home">Spartanburg Community College</a>
-         
+          @endif
+          
          
         </div>
         <div class="span7">
