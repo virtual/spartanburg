@@ -30,8 +30,3 @@ Interior with Snippets
 
 @include ('_partials/sidebar-contact')
 @endsection
-
-
-@section('alert')
-true
-@endsection

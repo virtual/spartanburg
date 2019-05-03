@@ -24,9 +24,3 @@ Programs &amp; Courses
 @include('_partials/video')
 @include ('_partials/sidebar-contact')
 @endsection
-
-
-@section('alert')
-true
-@endsection
- 
