@@ -62,19 +62,19 @@
           </div>
           <!-- end if Costs -->
           <!-- end ltrOutputStream - Major - Details.xslt -->
-
+          </section>
 
         </main>
         <div class="span3 sideContent">
 
           <!-- ltrSummary - Major - Teaser.xslt -->
-          <section class="majorSummary">
-            <section class="majorImage">
+          <div class="majorSummary">
+            <div class="majorImage">
               <img src="{{ $page->baseUrl }}/resources/images/majors/accounting-pgm-pic(1).jpg"
                 alt="a man writing with a pen" />
-            </section>
+            </div>
             Enroll now!
-          </section>
+          </div>
           <!-- end ltrSummary - Major - Teaser.xslt -->
           
 

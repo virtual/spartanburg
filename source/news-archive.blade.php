@@ -52,7 +52,9 @@ News Archive
   
 @section('left-nav')
 <section class="navPage">
-  <nav><ul><li class="current"><a target="_self" href="/news/" title="Past News Stories">Past News Stories</a></li></ul></nav>
+  <nav>
+    <h2 class="sr-only">Directory Navigation</h2>
+    <ul><li class="current"><a target="_self" href="/news/" title="Past News Stories">Past News Stories</a></li></ul></nav>
 </section>
 @endsection  
 

@@ -1,5 +1,6 @@
 <section class="navPage">
   <nav>
+    <h2 class="sr-only">Directory Navigation</h2>
     <ul>
       <li><a href="/tours" title="Take a Tour">Take a Tour</a></li>
       <li><a href="/maps/" title="Maps &amp; Directions">Maps &amp; Directions</a></li>

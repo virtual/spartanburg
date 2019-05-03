@@ -59,7 +59,7 @@
               <li><a href="/gainfulemployment">Gainful Employment</a></li>
               <li><a href="/vendors">Purchasing/Vendors</a></li>
               <li><a href="/sccnews">Media Contact</a></li>
-              <li><a href="mailto:itsupport@sccsc.edu?subject=Problem reported from SCC website">Report a Problem</a>
+              <li><a href="mailto:itsupport@sccsc.edu?subject=Problem%20reported%20from%20SCC%20website">Report a Problem</a>
               </li>
               <li><a href="/accessibility">Accessibility</a></li>
               <li><a href="http://get.adobe.com/reader/">Acrobat (PDF Reader)</a></li>
