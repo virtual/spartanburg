@@ -1,11 +1,9 @@
-<h2>Recent News</h2>
 <section class="modNews">
+  <h2>Recent News</h2>
   <div class="PBViewing">
     <ul class="columnwidgetlist">
-
       <!-- featured story -->
       <li class="PBItem">
-
         <article class="featured clearfix"><img
             src="{{ $page->baseUrl }}/resources/images/news-stories/spark-entrance.jpg?n=5437" alt="">
           <div class="details" role="complementary" aria-label="Featured News"><em>Featured Story</em>
@@ -15,11 +13,9 @@
                 href="/client/NewsDetail.aspx?id=12884905608">Full Story</a></p>
           </div>
         </article><a href="/news" class="viewAll">News Archive</a>
-
       </li>
 
       <li class="PBItem">
-
         <article class="featured"><img
             src="{{ $page->baseUrl }}/resources/images/news-stories/kids-zone-spring-fling19.jpg?n=3008" alt="">
           <div class="details">
