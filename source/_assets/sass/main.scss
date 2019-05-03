@@ -99,10 +99,21 @@ header .header-banner {
   #mainNav li, #auxNav li {
     text-align: left;
   }
+  #pageContent .mainContent { margin-left: 0;}
+  .CourseDetail .courseDetailData { padding-left: 0; padding-right: 0; }
   #mainNav .navPage li.current li a { padding-left: 15px; }
   #auxNav {
     position: relative; top: auto; display: block;
   }
+  #auxnav-container, #audienceNav {
+    display: none;
+  }
+  .nav-collapse {
+    #auxnav-container, #audienceNav {
+      display: block;
+    }
+  }
+    
 }
 h1,h2,h3,h4,h5,h6 { clear:both; }
 .h4 {
