@@ -49,7 +49,7 @@
               <!-- add class active to first one .item only -->
               <div class="item active">
                 <a href="{{ $page->baseUrl }}/resources/images/news-stories/spark-entrance.jpg" 
-                  rel="prettyPhoto[newsDetail]" title="Spark Entrance">
+                  data-gal="prettyPhoto[newsDetail]" title="Spark Entrance">
                   <img src="{{ $page->baseUrl }}/resources/images/news-stories/spark-entrance.jpg" alt="Spark Entrance" />
                 </a>
                 <div class="imgCaption">
@@ -58,7 +58,7 @@
               </div>
               <div class="item">
                 <a href="{{ $page->baseUrl }}/resources/images/news-stories/socheata-student-feature.jpg" 
-                  rel="prettyPhoto[newsDetail]" title="Socheata">
+                  data-gal="prettyPhoto[newsDetail]" title="Socheata">
                   <img src="{{ $page->baseUrl }}/resources/images/news-stories/socheata-student-feature.jpg" alt="socheata-student-feature" />
                 </a>
                 <div class="imgCaption">

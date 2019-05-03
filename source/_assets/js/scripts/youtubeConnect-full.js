@@ -165,7 +165,7 @@
 	$.fn.youtubeConnect.buildEvents = {
 		modal: function ($thisBlock, feeddata, o) {
 			$thisBlock.find('.item').each(function (i) {
-				$(this).wrap('<a href="' + feeddata.data.items[i].player['default'] + '" rel="prettyPhoto[youtubeBadge]" class="itemWrapper" />');
+				$(this).wrap('<a href="' + feeddata.data.items[i].player['default'] + '" data-gal="prettyPhoto[youtubeBadge]" class="itemWrapper" />');
 			});
 			if (typeof ($.prettyPhoto) == 'undefined') {
 				$.getScript("/client/scripts/prettyphoto/js/jquery.prettyPhoto.js").done(function (script, textStatus) {
