@@ -26,7 +26,7 @@
 
   <!-- INTERIOR -->
 
-  <section id="pageContent" name="Lower Header" role="banner" aria-label="Lower Header">
+  <section id="pageContent">
 
     <div class="container-fluid">
       <div class="row-fluid">

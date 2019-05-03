@@ -3,7 +3,6 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,7 +22,7 @@
  
   <!-- INTERIOR -->
 
-  <section id="pageContent" name="Lower Header" role="banner" aria-label="Lower Header">
+  <section id="pageContent">
       
     <!-- TwoColumnAlt -->
 <div class="container-fluid">
@@ -43,10 +42,10 @@
 		<div class="row-fluid">
 
         @if ((trim($__env->yieldContent('left-nav'))) || (trim($__env->yieldContent('sidebar'))))
-        <div class="span9 mainContent content-main">
+        <main class="span9 mainContent content-main">
             <!-- dzMain -->
           @yield('content')
-        </div>
+        </main>
 
         <div class="span3 sideContent content-sidebar">	 
           <!-- Navigation - Inpage -->   
@@ -59,9 +58,9 @@
        
         @else
         <!--! Adding a full-width option -->
-        <div class="span12 mainContent content-main">	 
+        <main class="span12 mainContent content-main">	 
           @yield('content')
-        </div>
+        </main>
         
         @endif
 

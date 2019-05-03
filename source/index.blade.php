@@ -24,7 +24,7 @@
         <p>Want to know what is going on? There's an app for that! Download our free mobile app, join the SCC
           active calendar, Facebook, Instagram and more to keep up with deadlines and events. Did you know we
           even offer technical support for email, too?</p>
-        <a href="/scc-connect" target="" title="Connect with SCC social media and more">
+        <a href="/scc-connect" title="Connect with SCC social media and more">
           Read More
         </a>
       </div>
@@ -35,7 +35,7 @@
       <div class="caption">
         <h2>What's Going on at SCC?</h2>
         <p>Keep up with Student Life events, concerts, Lyceum Series, speakers and more with MySCC Calendar.</p>
-        <a href="/studentlife" target="" title="Student Life events MySCC Calendar">
+        <a href="/studentlife" title="Student Life events MySCC Calendar">
           Read More
         </a>
       </div>
@@ -46,7 +46,7 @@
       <div class="caption">
         <h2>Welcome to SCC! Download MySCC App...</h2>
         <p>Download FREE MySCC App to access your student account and view information on classes, calendar,
-          announcements and even registration! </p><a href="/scc-connect" target="" title="MySCC App and more">
+          announcements and even registration! </p><a href="/scc-connect" title="MySCC App and more">
           Read More
         </a>
       </div>
@@ -76,7 +76,7 @@
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-      <a class="more" href="/schools-list" target="">Read More</a><a class="close">Close</a>
+      <a class="more" href="/schools-list">Read More</a><a class="close">Close</a>
     </div>
     <div class="toggle orange span6">Personal &amp; Professional Development</div>
     <div class="orange details panel">
@@ -86,7 +86,7 @@
         new job or a hobby? SCC's Corporate and Community Education has what you need
         for personal and professional development.</p>
       <p>&nbsp;</p>
-      <a class="more" href="/cce" target="">Read More</a><a class="close">Close</a>
+      <a class="more" href="/cce">Read More</a><a class="close">Close</a>
     </div>
     <div class="toggle blue span6 alt">Search for Classes &amp; Schedules</div>
     <div class="blue details panel">
@@ -98,7 +98,7 @@
       <p>&nbsp;</p>
       <a class="more"
         href="https://sccwaprod.sccsc.edu/WebAdvisor/WebAdvisor?type=P&amp;pid=ST-WESTS12A&amp;PROCESS=-ST-WESTS12A"
-        target="">Read More</a><a class="close">Close</a>
+       >Read More</a><a class="close">Close</a>
     </div>
     <div class="toggle yellow span6">Develop Your Business: The Spark</div>
     <div class="yellow details panel">
@@ -106,7 +106,7 @@
       <p>Looking for a way to start,
         develop and grow your business? Spark Center SC - known as the Spark - has everything you need.</p>
       <p><br><span id="ektronTempNode">&nbsp;</span></p>
-      <a class="more" href="/Center/" target="">Read More</a><a class="close">Close</a>
+      <a class="more" href="/Center/">Read More</a><a class="close">Close</a>
     </div>
   </div>
   <p><a class="button" href="https://sccsc.ellucianCRMrecruit.com/apply">Apply Now!</a></p>

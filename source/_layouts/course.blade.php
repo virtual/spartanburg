@@ -24,7 +24,7 @@
   <!-- ! USED for courses and /cce -->
   <!-- INTERIOR -->
 
-  <section id="pageContent" name="Lower Header" role="banner" aria-label="Lower Header">
+  <section id="pageContent">
 
     <div class="container-fluid">
       <div class="row-fluid">
@@ -37,10 +37,11 @@
       </div>
       <div class="row-fluid">
 
-          <div class="span9 mainContent">
+          <main class="span9 mainContent content-main">
           <!-- ! Course - Detail Multiedit -->   
           <!-- https://www.sccsc.edu/client/coursedetail.aspx?courseID=534&programID=7828&majorID=7951 -->
           <section class=" CourseDetail">
+            <h2 class="sr-only">Course Information</h2>
               <p class="coursedescription">This is a (college transfer) course in which the following topics are presented: a study of composition in conjunction with appropriate literary selections, with frequent theme assignments to reinforce effective writing. A review of standard usage and the basic techniques of research are also presented.</p>
               <div class="courseDetailData row-fluid">
                 <div class=" span4 courseDetailDataTitle">
@@ -99,7 +100,7 @@
 
 
 
-          </div>
+          </main>
           <div class="span3 sideContent">	
               @if (trim($__env->yieldContent('left-nav')))
                 <!-- Navigation - Inpage -->
@@ -108,9 +109,9 @@
 
 
               <!-- Dynamically generated -->
-              <section class="programReturn"> 
+              <div class="programReturn"> 
                 <a href="/accounting/" class="button returnToProgram">Return to Accounting</a>
-              </section>
+              </div>
 
               <!-- Asset: Apply Banner -->
               <div>

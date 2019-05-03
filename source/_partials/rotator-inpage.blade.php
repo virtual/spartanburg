@@ -4,7 +4,7 @@
         alt="MINI CAMIT Rotator">
       <div class="caption">
         <h2>Advanced Industrial</h2>
-        <p>CAMIT is SCC's premier advanced manufacturing facility.</p><a href="/Industrial" target=""
+        <p>CAMIT is SCC's premier advanced manufacturing facility.</p><a href="/Industrial"
           title="Advanced Manufacturing and Industrial Technologies program information">Read More</a>
       </div>
     </div>
@@ -12,7 +12,7 @@
         alt="MINI Culinary Rotator">
       <div class="caption">
         <h2>Culinary Arts</h2>
-        <p>Where love of cooking meets smart career move.</p><a href="/culinary" target=""
+        <p>Where love of cooking meets smart career move.</p><a href="/culinary"
           title="Culinary arts programs at SCC">Read More</a>
       </div>
     </div>
@@ -21,7 +21,7 @@
         alt="MINI Weekend College">
       <div class="caption">
         <h2>Online Classes</h2>
-        <p>Balancing work or family responsibilities? Try online classes.</p><a href="/online" target=""
+        <p>Balancing work or family responsibilities? Try online classes.</p><a href="/online"
           title="SCC Weekend College">Read More</a>
       </div>
     </div>
@@ -29,7 +29,7 @@
         alt="MINI CCE Rotator">
       <div class="caption">
         <h2>Training &amp; Development</h2>
-        <p>Is SCC's Corporate and Community Education right for you?</p><a href="/cce" target=""
+        <p>Is SCC's Corporate and Community Education right for you?</p><a href="/cce"
           title="Corporate and Community Education information">Read More</a>
       </div>
     </div>

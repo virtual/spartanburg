@@ -26,7 +26,7 @@
   @include('_partials.header')
 
   <!-- INTERIOR -->
-  <section id="pageContent" name="Lower Header" role="banner" aria-label="Lower Header">
+  <section id="pageContent">
 
     <div class="container-fluid">
       <div class="row-fluid">
@@ -39,7 +39,7 @@
       </div>
       <div class="row-fluid">
 
-        <div class="span9 mainContent">
+        <main class="span9 mainContent content-main">
             
           <!-- ltrImage -> couldn't find code -->
             
@@ -68,7 +68,7 @@
           <!-- end ltrOutputStream - Major - Details.xslt -->
 
 
-        </div>
+        </main>
         <div class="span3 sideContent">
 
           <!-- ltrSummary - Major - Teaser.xslt -->

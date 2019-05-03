@@ -107,9 +107,9 @@
 <script src="{{ $page->baseUrl }}/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>  
 <script src="{{ $page->baseUrl }}/assets/js/main.js?v=2"></script>  
 
-<script src="{{ $page->baseUrl }}/assets/js/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
-<script src="{{ $page->baseUrl }}/assets/js/jquery.touchSwipe.min.js" type="text/javascript"></script>
-<script src="{{ $page->baseUrl }}/assets/js/home-app.js" type="text/javascript"></script> 
+<script src="{{ $page->baseUrl }}/assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script src="{{ $page->baseUrl }}/assets/js/jquery.touchSwipe.min.js"></script>
+<script src="{{ $page->baseUrl }}/assets/js/home-app.js"></script> 
 <!-- end DIFFERENT FOR HOME -->
 
 <!-- SiteImprove Analytics -->
