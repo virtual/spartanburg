@@ -138,7 +138,10 @@ header .header-banner {
     
 }
 
-
+.paybutton .apply {
+  width: auto;
+  margin-top: 20px;
+}
 
 @media (max-width: 479px) {
   #audienceNav ul {
