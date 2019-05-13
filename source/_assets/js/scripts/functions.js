@@ -11,7 +11,7 @@ $(document).ready(function () {
         $('#audienceNav').appendTo($('#header'));
         $('#auxNav').appendTo($('#auxnav-container'));        
 			} else { // if tablet or smaller
-        $('#audienceNav').insertBefore($('footer'));
+        $('#audienceNav').insertAfter($('#header'));
         $('.navPage').insertAfter($('#current'));        
         $('#auxNav').appendTo($('#mainNav'));    
 			}
@@ -42,48 +42,3 @@ $(document).ready(function () {
 		})
 	});
 });
-
-/*
-
-window.yepnope({
-	test: $('.rotator').length > 0,
-	yep: {
-		'carousel': '/client/scripts/jquery.caroufredsel-6.2.1-packed.js',
-		'touchswipe': '/client/scripts/helper-plugins/jquery.touchSwipe.min.js'
-	},
-	callback: {
-		'touchswipe': function (url, result, key) {
-			$(document).ready(function () {
-				$(".rotator").carouFredSel({
-					width: "100%",
-					height: "auto",
-					responsive: true,
-					items: {
-						visible: 1
-					},
-					scroll: {
-						pauseOnHover: true,
-						easing: "linear"
-					},
-					swipe: true
-
-				});
-				$(".rotator").each(function () {
-					$(this).trigger("configuration",
-							{
-							scroll: {
-								fx: $(this).data('fx'),
-								pauseOnHover: $(this).data('pause')
-							},
-							auto: $(this).data('delay'),
-							prev: $(this).data('prev'),
-							next: $(this).data('next'),
-							pagination: $(this).data('pagination')
-							}
-					);
-				});
-			});
-		}
-	}
-});
-*/

@@ -105,16 +105,48 @@ header .header-banner {
   #auxNav {
     position: relative; top: auto; display: block;
   }
-  #auxnav-container, #audienceNav {
+  #auxnav-container {
     display: none;
   }
   .nav-collapse {
-    #auxnav-container, #audienceNav {
+    #auxnav-container {
       display: block;
     }
   }
+
+  #audienceNav {
+    padding: 0;
+
+    ul {
+      display: flex;
+      justify-content: stretch;
+      align-items: stretch;
+
+      li {
+        flex-grow: 1;
+        display:flex;
+        margin: auto;
+        a { border-bottom: 0; background: transparent; flex-grow: 1; }
+      }
+    }
+  }
+  
+  header {
+    border-bottom: 1px solid #546597
+  }  
+  #pageContent { border-top: 0;}
     
 }
+
+
+
+@media (max-width: 479px) {
+  #audienceNav ul {
+    
+    flex-wrap: wrap;
+  }
+}
+
 h1,h2,h3,h4,h5,h6 { clear:both; }
 .h4 {
   margin: 10px 0;

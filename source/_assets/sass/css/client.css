@@ -671,34 +671,27 @@ h6{
 	padding: 0;
 	}
 
-	.homeCarousel .item {
-		position: relative;
-	}
+  .homeCarousel .item {
+    position: relative;
+    bottom: -3px;
+  }
 	
 	.homeCarousel.pageCarousel img {
 		width: 100%;
 		}
-		
 	
-
-	.homeCarousel .caption {
-		padding:15px 15px 0 15px;
-		color: #fff;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		background: rgba(20,29,55,.8);
-		box-sizing: border-box;
-		width: 100%;
-	}
+    .homeCarousel .caption {
+      padding:15px 15px 0 15px;
+      color: #fff;
+      
+      background: rgba(20,29,55,1);
+      box-sizing: border-box;
+      width: 100%;
+      
+    padding-bottom: 10px;
+    margin-bottom: 2px; 
+    }	
 	
-	.homeCarousel.pageCarouselSideCap .caption {
-		top: 0;
-		right: 0;
-		left: auto;
-		height: 100%;
-		width: 20%;
-		}
 
 		.homeCarousel .caption h2 {
 			color: #fff;
@@ -712,26 +705,63 @@ h6{
 		.homeCarousel .caption p {
 			width: 80%;
 			border: 0;
-		}
+    }
+    
+    @media (max-width: 767px) {
+    .item+.item {
+      opacity: 0;
+    }  
+  }
 
-		
-		.homeCarousel .caption a {
-			width: 20%;
-			position: absolute;
-			bottom: 20px;
-			right: 20px;
-			text-transform: uppercase;
-			color: #569f3f;
-			border: 0;
-			text-align: right;
-			font-size: 1.7em;
-			font-family:'Myriad W01 Cnd';
+@media (min-width: 768px) {
+  .homeCarousel .item { 
+    bottom:-3px;
+  }
+
+	.homeCarousel .caption {
+		position: absolute;
+		bottom: 0;
+    left: 0;  
+    
+    background: rgba(20,29,55,.8);
+	}
+	
+	.homeCarousel.pageCarouselSideCap .caption {
+		top: 0;
+		right: 0;
+		left: auto;
+		height: 100%;
+		width: 70%;
 		}
-		
-		.homeCarousel.pageCarouselSideCap a {
-			width: auto;
-			position: static;
-			}
+  .homeCarousel .caption a {
+    width: 20%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+   
+  }
+  		
+  .homeCarousel.pageCarouselSideCap a {
+    width: auto;
+    position: static;
+    }
+
+}
+
+@media (min-width: 992px) {
+  .homeCarousel.pageCarouselSideCap .caption { width: 40%;	}
+}
+@media (min-width: 1200px) {
+  .homeCarousel.pageCarouselSideCap .caption { width: 20%;	}
+}		
+.homeCarousel .caption a {
+  text-transform: uppercase;
+  color: #569f3f;
+  border: 0;
+  text-align: right;
+  font-size: 1.7em;
+  font-family:'Myriad W01 Cnd';
+}
 
 	.homeCarousel .pagination {
 		position: relative;

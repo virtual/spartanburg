@@ -26,7 +26,7 @@
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
-	.homeCarousel{ display:none;}
+	/* .homeCarousel{ display:none;} */
 	.mainContent { float: none!important;}
 	body { padding: 0!important;}
 	.container-fluid { margin: 0 auto; padding: 10px;}
@@ -121,7 +121,7 @@
 /* Landscape phones and down */
 @media (max-width: 480px) { 
 
-	.homeCarousel{ display:none;}
+	/* .homeCarousel{ display:none;} */
 	.mainContent { float: none!important;}
 	.navbar .brand { max-width: 80%; background-size: 100%; }
 	
