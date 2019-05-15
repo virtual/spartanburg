@@ -43,58 +43,42 @@
           <!-- https://www.sccsc.edu/client/coursedetail.aspx?courseID=534&programID=7828&majorID=7951 -->
           <section class="CourseDetail">
             <h2 class="sr-only">Course Information</h2>
+            <div class="courseinfo">
+              Colleague Description from export
+            </div>
             <div class="coursedescription">
+              <kbd class="ouc">Edit</kbd>
               @yield('content')
             </div>
 
-
-            <div class="reginfo">
-              <p><strong>Classes Available</strong></p>
-              @yield('classinfo')
-              @yield('reginfo')
-
-            </div>
+            @yield('reginfo')
 
             <p class="alert">DO NOT SHOW THESE FIELDS IF CORRELATED INPUT IS EMPTY</p>
+
+
             <div class="courseDetailData row-fluid">
-              <div class="span4 courseDetailDataTitle">
-                Academic Level
-              </div>
-              <div class="span8">Undergraduate</div>
-            </div>
-            <div class="courseDetailData row-fluid">
-              <div class="span4 courseDetailDataTitle">
-                Subject
-              </div>
-              <div class="span8">English</div>
-            </div> 
-            <div class="courseDetailData row-fluid">
-              <div class="span4 courseDetailDataTitle">
-                Credits
-              </div>
-              <div class="span8">3</div>
-            </div>
-            <div class="courseDetailData row-fluid">
-              <div class="span4 courseDetailDataTitle">
+              <div class="span3 courseDetailDataTitle">
                 Prerequisites
               </div>
-              <div class="span8">Take ENG-100 or ENG-165 and RDG-100 with a&nbsp;
+              <div class="span9">Take ENG-100 or ENG-165 and RDG-100 with a&nbsp;
                 minimum grade C.&nbsp;
               </div>
             </div>
             <div class="courseDetailData row-fluid">
-              <div class="span4 courseDetailDataTitle">
-                Corequisites
+              <div class="span3 courseDetailDataTitle">
+                Classes Available
               </div>
-              <div class="span8">
-                None
+              <div class="span9">
+                <div class="reginfo"> 
+                  @yield('classinfo')
+                </div>
               </div>
             </div>
             <div class="courseDetailData row-fluid">
-              <div class="span4 courseDetailDataTitle">
+              <div class="span3 courseDetailDataTitle">
                 Cost
               </div>
-              <div class="span8">
+              <div class="span9">
                 $380
               </div>
             </div>

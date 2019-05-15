@@ -13,9 +13,13 @@ ENG-101 - English Composition I
 @endsection
 
 @section('classinfo')
-<ul>
-  <li>Jul 29 - Aug 1 / Mon-Thur, 8:30am-5:30pm / Central Campus</li>
-</ul>
+<table class="table classinfo">
+<thead><th>Dates</th><th>Times</th><th>Location</th></thead>
+<tbody>
+  <tr><td>Jul 29 - Aug 1</td><td>Mon-Thur, 8:30am-5:30pm</td><td>Central Campus</td></tr>
+  <tr><td>Sept 3 - Sept 6</td><td>Mon-Thur, 8:30am-5:30pm</td><td>Central Campus</td></tr>
+</tbody>
+</table> 
 @endsection
 
 @section('reginfo')
